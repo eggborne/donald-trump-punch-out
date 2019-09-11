@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Pixel Emulator';
+    src: url('assets/Pixel-Emulator.otf');
+}
+body {
+    font-family: 'Pixel Emulator';
+    color: #f1ce52;
+    background-color: #000000;
+    margin: 0;
+    overflow:hidden;
+    width:100%;
+    height:100%;
+    text-align:center;
+    /*position:relative;*/
+}
+
+#game-canvas {
+    /*visibility: hidden;*/
+    /*margin:0;*/
+    /*top:0;
+    left:0;*/
+    width:100%;
+    height:100%;
+    top:100%;
+    transition:all 500ms ease;
+    position:absolute;
+}
+#debug {
+    width:100%;
+    height:20%;
+    position:absolute;
+    top:24%;
+    /* background-color: grey; */
+    /* opacity:0.5; */
+    color:white;
+    font-size:4vmin;
+    text-align:center;
+    z-index:4;
+    opacity:0.5;
+    pointer-events: none;
+    /* display:none; */
+}
+#title-screen {
+    box-sizing: border-box;
+    /* background-color: blue; */
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:100%;
+    transition: all 500ms ease;
+    text-align:center;
+    padding-top:2%;
+    /* opacity:1; */
+}
+#title-start {
+    box-sizing: border-box;
+    position:relative;
+    background-color: #000099;
+    width:50%;
+    height:10%;
+    font-family:inherit;
+    color:white;
+}
+/* #title-start:active {
+    background-color: #0000ff;
+} */
+#logo {
+    position:relative;
+    width:90%;
+    
+    /* height:30%; */
+    /* height:calc(100% - 10vw); */
+    /* top:5vw; */
+    margin:0 auto;
+    /* background-color: red; */
+    /* background-image:url("assets/titlelogo.png");
+    background-size:100%;
+    background-position:top center;
+    background-repeat:no-repeat; */
+    /* opacity:0.2; */
+}
+#logo-img {
+    position:relative;
+    width:100%;
+    margin-bottom:10%;
+}
+#start-button, #options-button {
+    color: #ffffff;
+    background-color: #333333;
+    width:75%;
+    height:15%;
+    position:relative;
+    /*top:5%;*/
+    margin: 0 auto;
+    top:5%;
+
+}
+#start-button {
+    top:10%;
+}
+#start-message {
+    position:relative;
+    /* background-color: brown; */
+    /* visibility: hidden; */
+    opacity:0;
+    text-align: center;
+    width:90%;
+    height:30%;
+    font-size:5vmin;
+    padding-top:5%;
+    margin: 0 auto;
+    color: #042e64;
+    transition:all 500ms ease;
+}
+#title-logo {
+    width:100%;
+    margin: 0 auto;
+    
+
+    /*margin-top:2.5%;    */
+}
+
+#header {
+    /*visibility: hidden;*/
+
+    position:absolute;
+    width: 100%;
+    height: 15%;
+    top:2%;
+    font-size: 36px;
+    text-align: center;
+}
+
+#loading-message {
+    position:absolute;
+    width:100%;
+    height:20%;
+    top:40%;
+    font-size:24px;
+    text-align:center;
+    /*visibility: hidden;*/
+}
+
